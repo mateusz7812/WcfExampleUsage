@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="79770674-2321-4d18-9d0b-7da2d1709f72" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:10000/MyCCalculator" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MyCCalculator.xsd" MetadataType="Schema" ID="035f3552-b294-48c5-8dce-935eacab9e98" SourceId="1" SourceUrl="http://localhost:10000/MyCCalculator?xsd=xsd0" />
+    <MetadataFile FileName="MyCCalculator.wsdl" MetadataType="Wsdl" ID="23b12af9-ceeb-404f-8b14-37f49edb9c65" SourceId="1" SourceUrl="http://localhost:10000/MyCCalculator?wsdl" />
+    <MetadataFile FileName="MyCCalculator1.xsd" MetadataType="Schema" ID="a6c2ee2c-efde-4aca-9459-6e15ede217c8" SourceId="1" SourceUrl="http://localhost:10000/MyCCalculator?xsd=xsd1" />
+    <MetadataFile FileName="MyCCalculator.disco" MetadataType="Disco" ID="3d89d8fe-a936-4e5a-8f61-219d30079c7b" SourceId="1" SourceUrl="http://localhost:10000/MyCCalculator?disco" />
+    <MetadataFile FileName="MyCCalculator2.xsd" MetadataType="Schema" ID="b0131c38-587e-4afa-a0ac-a24b5be562f4" SourceId="1" SourceUrl="http://localhost:10000/MyCCalculator?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
